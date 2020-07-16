@@ -1,0 +1,210 @@
+@import "reset.css";
+@import "common.css";
+
+
+body {
+    position: relative;
+}
+/* 页头开始 */
+.header{
+    width: 100%;
+    height: 60px;
+    background: url("../img/上背景.png") no-repeat;
+    margin-top: 10px;
+    position: relative;
+}
+
+.container .logo {
+    position: absolute;
+    float: left;
+    left: 340px;
+    padding-top: 10px;
+
+}
+
+.container p{
+    position: absolute;
+    left: 390px;
+    font-size: 18px ;
+    padding-top: 20px;
+
+}
+
+.header .menu nav .e img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    float: right;
+    top: 20px;
+    right: 500px;
+    
+}
+
+.header .menu nav .e p{
+    position: absolute;
+    float: right;
+    right: 420px;
+    top: 22px;
+}
+nav {
+    position: relative;
+}
+nav  .modal{
+    position: absolute;
+    visibility: hidden;
+    top: 60px;
+    left: 1000px;
+    width: 300px;
+    height: 300px;
+    background-color: lawngreen;
+    z-index: 999;
+}
+ 
+.menu p{
+    position: absolute;
+    float: right;
+    right: 410px;
+    top: 22px;
+} 
+.header .menu .app img{
+    position: absolute;
+    width: 16px;
+    height: 20px;
+    float: right;
+    top: 20px;
+    right: 386px;
+}
+
+.header .menu .app p{
+    position: absolute;
+    float: right;
+    right: 320px;
+    top: 22px;
+}
+/* 页头结束 */
+
+/* 中部开始 */
+.banner {
+    height: 698px;
+    background: url("../img/中间背景.png") no-repeat 0 0/100%;
+}
+.banner .container .loginarea{
+    width: 400px;
+    height: 505px;
+    position: relative;
+}
+
+.banner .container .left{
+    width: 670px;
+    height: 250px;
+    position: relative;
+}
+.banner .container .left .slogan{
+    position: absolute;
+    top: 140px;
+    left: 220px;
+    width: 659px;
+    height: 67px;
+     /* 需修改 */
+}
+.banner .container .left .xu{
+    position: absolute;
+    top: 288px;
+    left: 246px;
+    border: 1px solid #ccc;
+    width: 250px;
+    height: 68px;
+}
+.banner .container .left .xu img{
+    position: absolute;
+    width: 44px;
+    height: 39px;
+    top: 13px;
+    left: 13px;
+}
+.banner .container .left .xu p,
+.banner .container .left .ban p{
+    top: 10px;
+    left: 80px;
+    color: #fff;
+}
+
+.banner .container .left .ban{
+    position: absolute;
+    top: 288px;
+    left: 560px;
+    border: 1px solid #ccc;
+    width: 250px;
+    height: 68px;
+}
+.banner .container .left .ban img{
+    position: absolute;
+    width: 44px;
+    height: 39px;
+    top: 10px;
+    left: 20px;
+}
+/* 中部结束 */
+
+/* 中部文字开始 */
+
+.tab .container .tab-title{
+    position: absolute;
+    display: flex;
+    width: 443px;
+    height: 24px;
+    top: 520px;
+    left: 400px;
+    
+
+}
+.tab .container .tab-title li:nth-child(4) {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color:rgba(255,255,255,1);
+    /* border-top-color: red; */
+    z-index: 9999;
+}
+
+li {
+    flex:1;
+    list-style: none;
+}
+/* 中部文字结束 */
+
+/* 页脚开始 */
+.footer{
+    width: 100%;
+    height: 102px;
+    background-color: #E0E0E0;
+    position: relative;
+}
+.footer .container .left{
+    width: 50px;
+    height: 61px;
+    position: absolute;
+    top: 21px;
+    right: 1294px;
+    bottom: 20px;
+    left: 576px;
+
+}
+.footer .container .right p{
+    width:631px;
+    height:36px;
+    font-size:12px;
+    font-family:SimSun;
+    font-weight:400;
+    color:rgba(102,102,102,1);
+    line-height:24px;
+    position: absolute;
+    top: 10px;
+    right: 670px;
+    bottom: 32px;
+    left: 642px;
+}
+/* 页脚结束 */
